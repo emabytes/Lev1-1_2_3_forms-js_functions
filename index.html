@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="myform" action="">
+        <p>Enter a number</p>
+        <!-- input number -->
+        <input type="number" name="number" id="number">
+
+        <!-- button input -->
+        <input type="button" value="Show Double" id="btn" onclick="double()">
+
+        <!-- p result text -->
+        <p id="result"></p>
+    </form>
+    <br><br>
+    <form action="">
+        <p>Enter your year of birth</p>
+        <input type="number" name="year" id="year">
+
+        <input type="button" value="Calculate My Age" id="btn" onclick="calculateAge()">
+
+        <p id="result-age"></p>
+
+    </form>
+    <br><br><br>
+    <form action="">
+        <label for="age-first">Age 1</label>
+        <input type="number" name="age-first" id="age-first">
+        <br>
+        <label for="age-second">Age 2</label>
+        <input type="number" name="age-second" id="age-second">
+        <br><br>
+
+        <input type="button" value="Calculate Difference" id="btn" onclick="calculateDifference()">
+
+        <p id="result-difference"></p>
+
+    </form>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
